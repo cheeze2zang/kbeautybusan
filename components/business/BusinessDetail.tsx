@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import {
@@ -9,6 +10,7 @@ import {
 } from "@/data/businesses";
 import { formatKRW, formatUSD } from "@/lib/utils";
 import RatingBadge from "@/components/ui/RatingBadge";
+import BookingModal from "@/components/booking/BookingModal";
 import { ArrowLeft, Clock, Phone, MapPin, Globe, Star, ExternalLink, Instagram } from "lucide-react";
 
 interface BusinessDetailProps {
@@ -18,6 +20,7 @@ interface BusinessDetailProps {
 export default function BusinessDetail({ business }: BusinessDetailProps) {
   const t = useTranslations("detail");
   const tCat = useTranslations("categories");
+  const [bookingOpen, setBookingOpen] = useState(false);
   const locale = useLocale();
   const cat = categoryLabels[business.category];
   const district = districtLabels[business.district];
@@ -154,7 +157,10 @@ export default function BusinessDetail({ business }: BusinessDetailProps) {
                   </div>
                 </div>
                 <div className="p-5">
-                  <button className="w-full rounded-xl bg-busan-secondary py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-busan-secondary/90 hover:shadow-lg">
+                  <button
+                    onClick={() => setBookingOpen(true)}
+                    className="w-full rounded-xl bg-busan-secondary py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-busan-secondary/90 hover:shadow-lg"
+                  >
                     {t("bookNow")}
                   </button>
                   {business.kakaoUrl && (
@@ -227,6 +233,13 @@ export default function BusinessDetail({ business }: BusinessDetailProps) {
         </div>
         <div className="h-20" />
       </div>
+
+      <BookingModal
+        open={bookingOpen}
+        onClose={() => setBookingOpen(false)}
+        businessSlug={business.slug}
+        businessName={displayName}
+      />
     </div>
   );
 }
