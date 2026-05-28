@@ -441,7 +441,7 @@ export const businesses: Business[] = [
     reviewCount: 2150,
     priceKRW: 22000,
     priceUSD: 16,
-    thumbnailUrl: "https://images.unsplash.com/photo-1540555700478-4be289fbec6d?w=600&h=450&fit=crop",
+    thumbnailUrl: "https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?w=600&h=450&fit=crop",
     services: [
       { name: "Basic Entry (Jjimjilbang)", nameKo: "기본 입장 (찜질방)", priceKRW: 22000, priceUSD: 16, duration: "All day" },
       { name: "Premium Massage", nameKo: "프리미엄 마사지", priceKRW: 80000, priceUSD: 59, duration: "60min" },
@@ -470,7 +470,7 @@ export const businesses: Business[] = [
     reviewCount: 580,
     priceKRW: 80000,
     priceUSD: 59,
-    thumbnailUrl: "https://images.unsplash.com/photo-1629909615957-be38d461c3b6?w=600&h=450&fit=crop",
+    thumbnailUrl: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&h=450&fit=crop",
     kakaoUrl: "https://pf.kakao.com/_sVBlu",
     websiteUrl: "https://www.doctorkim.com/",
     services: [
@@ -533,7 +533,7 @@ export const businesses: Business[] = [
     reviewCount: 245,
     priceKRW: 90000,
     priceUSD: 66,
-    thumbnailUrl: "https://images.unsplash.com/photo-1598524374912-6b0b0a5b5c68?w=600&h=450&fit=crop",
+    thumbnailUrl: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&h=450&fit=crop",
     websiteUrl: "https://rnmeskin.com/",
     services: [
       { name: "Acne Treatment Program", nameKo: "여드름 치료 프로그램", priceKRW: 90000, priceUSD: 66, duration: "40min" },
