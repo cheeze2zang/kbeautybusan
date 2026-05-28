@@ -68,6 +68,12 @@ export default function Header() {
           >
             {t("catalog")}
           </Link>
+          <Link
+            href="/news"
+            className="text-sm font-medium text-busan-secondary/70 transition-colors hover:text-busan-primary"
+          >
+            {t("news")}
+          </Link>
 
           {/* Language Switcher */}
           <div className="relative">
@@ -123,6 +129,13 @@ export default function Header() {
               className="rounded-xl px-4 py-3 text-sm font-medium text-busan-secondary/80 transition-colors hover:bg-amber-50"
             >
               {t("catalog")}
+            </Link>
+            <Link
+              href="/news"
+              onClick={() => setMobileOpen(false)}
+              className="rounded-xl px-4 py-3 text-sm font-medium text-busan-secondary/80 transition-colors hover:bg-amber-50"
+            >
+              {t("news")}
             </Link>
             <div className="mt-2 flex flex-wrap gap-2 px-4">
               {(["en", "ko", "ja", "zh"] as const).map((loc) => (

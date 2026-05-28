@@ -3,7 +3,20 @@
     "home": "ホーム",
     "catalog": "店舗一覧",
     "about": "紹介",
+    "news": "お知らせ",
     "subtitle": "プレミアムビューティープラットフォーム"
+  },
+  "news": {
+    "title": "お知らせ & イベント",
+    "subtitle": "釜山のプレミアムビューティー店舗の最新情報、イベント、プロモーション",
+    "all": "すべて",
+    "categoryNews": "お知らせ",
+    "categoryEvent": "イベント",
+    "categoryPromotion": "プロモーション",
+    "noPosts": "まだ投稿がありません。近日公開予定！",
+    "readMore": "詳しく見る",
+    "relatedVenue": "関連店舗",
+    "backToList": "一覧に戻る"
   },
   "hero": {
     "badge": "2025 プレミアム K-ビューティー プラットフォーム",
@@ -133,7 +146,26 @@
     "confirm": "確定",
     "cancel": "キャンセル",
     "refresh": "更新",
-    "newAlert": "新しい予約が入りました！"
+    "newAlert": "新しい予約が入りました！",
+    "tabBookings": "予約管理",
+    "tabPosts": "お知らせ & イベント",
+    "createPost": "投稿作成",
+    "postTitle": "タイトル",
+    "postTitlePlaceholder": "投稿タイトルを入力してください",
+    "postContent": "内容",
+    "postContentPlaceholder": "お知らせやイベントの内容を入力してください...",
+    "postCategory": "カテゴリー",
+    "postBusiness": "関連店舗（任意）",
+    "postBusinessNone": "なし",
+    "postImage": "画像URL（任意）",
+    "postImagePlaceholder": "https://...",
+    "postSubmit": "公開する",
+    "postSubmitting": "公開中...",
+    "postSuccess": "投稿が公開されました！",
+    "postList": "公開済みの投稿",
+    "noPostsAdmin": "公開済みの投稿はありません。",
+    "delete": "削除",
+    "deleteConfirm": "この投稿を削除しますか？"
   },
   "lang": {
     "en": "English",

@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
-import { RefreshCw, Bell, CheckCircle2, XCircle, Clock, Users, Calendar } from "lucide-react";
+import { RefreshCw, Bell, CheckCircle2, XCircle, Clock, Users, Calendar, CalendarCheck, Megaphone } from "lucide-react";
+import PostManager from "./PostManager";
 
 interface Booking {
   id: number;
@@ -21,6 +22,7 @@ interface Booking {
 
 export default function Dashboard() {
   const t = useTranslations("admin");
+  const [tab, setTab] = useState<"bookings" | "posts">("bookings");
   const [bookings, setBookings] = useState<Booking[]>([]);
   const [loading, setLoading] = useState(true);
   const [prevCount, setPrevCount] = useState(0);
@@ -95,16 +97,46 @@ export default function Dashboard() {
                 {t("newAlert")}
               </div>
             )}
-            <button
-              onClick={fetchBookings}
-              className="flex items-center gap-2 rounded-xl border border-amber-200 px-4 py-2.5 text-sm font-medium text-amber-700 transition-colors hover:bg-amber-50"
-            >
-              <RefreshCw size={14} className={loading ? "animate-spin" : ""} />
-              {t("refresh")}
-            </button>
+            {tab === "bookings" && (
+              <button
+                onClick={fetchBookings}
+                className="flex items-center gap-2 rounded-xl border border-amber-200 px-4 py-2.5 text-sm font-medium text-amber-700 transition-colors hover:bg-amber-50"
+              >
+                <RefreshCw size={14} className={loading ? "animate-spin" : ""} />
+                {t("refresh")}
+              </button>
+            )}
           </div>
         </div>
 
+        {/* Tabs */}
+        <div className="mt-8 flex gap-2 border-b border-amber-100">
+          <button
+            onClick={() => setTab("bookings")}
+            className={`flex items-center gap-2 border-b-2 px-4 py-3 text-sm font-semibold transition-colors ${
+              tab === "bookings" ? "border-amber-500 text-busan-secondary" : "border-transparent text-busan-secondary/40 hover:text-busan-secondary/70"
+            }`}
+          >
+            <CalendarCheck size={16} /> {t("tabBookings")}
+          </button>
+          <button
+            onClick={() => setTab("posts")}
+            className={`flex items-center gap-2 border-b-2 px-4 py-3 text-sm font-semibold transition-colors ${
+              tab === "posts" ? "border-amber-500 text-busan-secondary" : "border-transparent text-busan-secondary/40 hover:text-busan-secondary/70"
+            }`}
+          >
+            <Megaphone size={16} /> {t("tabPosts")}
+          </button>
+        </div>
+
+        {tab === "posts" && (
+          <div className="mt-8">
+            <PostManager />
+          </div>
+        )}
+
+        {tab === "bookings" && (
+        <>
         {/* Stats Cards */}
         <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
           <div className="rounded-2xl border border-amber-100/60 bg-white/90 p-5 shadow-luxury">
@@ -205,6 +237,8 @@ export default function Dashboard() {
             </div>
           )}
         </div>
+        </>
+        )}
       </div>
     </div>
   );

@@ -142,3 +142,61 @@ export async function getReviewStats(slug: string) {
 export async function incrementHelpful(id: number) {
   await sql`UPDATE reviews SET helpful_count = helpful_count + 1 WHERE id = ${id}`;
 }
+
+// ── Posts (News & Events) ──
+
+export async function initPostsTable() {
+  await sql`
+    CREATE TABLE IF NOT EXISTS posts (
+      id SERIAL PRIMARY KEY,
+      title VARCHAR(255) NOT NULL,
+      content TEXT NOT NULL,
+      category VARCHAR(20) NOT NULL DEFAULT 'news',
+      business_slug VARCHAR(255),
+      business_name VARCHAR(255),
+      image_url TEXT,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+    )
+  `;
+}
+
+export interface Post {
+  id: number;
+  title: string;
+  content: string;
+  category: "news" | "event" | "promotion";
+  business_slug: string | null;
+  business_name: string | null;
+  image_url: string | null;
+  created_at: string;
+}
+
+export async function createPost(data: {
+  title: string;
+  content: string;
+  category: string;
+  businessSlug?: string;
+  businessName?: string;
+  imageUrl?: string;
+}): Promise<Post> {
+  const result = await sql`
+    INSERT INTO posts (title, content, category, business_slug, business_name, image_url)
+    VALUES (${data.title}, ${data.content}, ${data.category}, ${data.businessSlug || null}, ${data.businessName || null}, ${data.imageUrl || null})
+    RETURNING *
+  `;
+  return result.rows[0] as Post;
+}
+
+export async function getPosts(): Promise<Post[]> {
+  const result = await sql`SELECT * FROM posts ORDER BY created_at DESC`;
+  return result.rows as Post[];
+}
+
+export async function getPostById(id: number): Promise<Post | undefined> {
+  const result = await sql`SELECT * FROM posts WHERE id = ${id}`;
+  return result.rows[0] as Post | undefined;
+}
+
+export async function deletePost(id: number) {
+  await sql`DELETE FROM posts WHERE id = ${id}`;
+}

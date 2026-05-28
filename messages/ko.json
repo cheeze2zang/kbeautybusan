@@ -3,7 +3,20 @@
     "home": "홈",
     "catalog": "전체 업체",
     "about": "소개",
+    "news": "소식",
     "subtitle": "프리미엄 뷰티 플랫폼"
+  },
+  "news": {
+    "title": "소식 & 이벤트",
+    "subtitle": "부산 프리미엄 뷰티 업체들의 최신 소식, 이벤트, 프로모션",
+    "all": "전체",
+    "categoryNews": "소식",
+    "categoryEvent": "이벤트",
+    "categoryPromotion": "프로모션",
+    "noPosts": "아직 게시글이 없습니다. 곧 업데이트됩니다!",
+    "readMore": "자세히 보기",
+    "relatedVenue": "관련 업체",
+    "backToList": "목록으로"
   },
   "hero": {
     "badge": "2025 프리미엄 K-뷰티 플랫폼",
@@ -133,7 +146,26 @@
     "confirm": "확정",
     "cancel": "취소",
     "refresh": "새로고침",
-    "newAlert": "새 예약이 접수되었습니다!"
+    "newAlert": "새 예약이 접수되었습니다!",
+    "tabBookings": "예약 관리",
+    "tabPosts": "소식 & 이벤트",
+    "createPost": "게시글 작성",
+    "postTitle": "제목",
+    "postTitlePlaceholder": "게시글 제목을 입력하세요",
+    "postContent": "내용",
+    "postContentPlaceholder": "소식이나 이벤트 내용을 작성하세요...",
+    "postCategory": "분류",
+    "postBusiness": "관련 업체 (선택)",
+    "postBusinessNone": "없음",
+    "postImage": "이미지 URL (선택)",
+    "postImagePlaceholder": "https://...",
+    "postSubmit": "게시하기",
+    "postSubmitting": "게시 중...",
+    "postSuccess": "게시글이 등록되었습니다!",
+    "postList": "등록된 게시글",
+    "noPostsAdmin": "등록된 게시글이 없습니다.",
+    "delete": "삭제",
+    "deleteConfirm": "이 게시글을 삭제할까요?"
   },
   "lang": {
     "en": "English",

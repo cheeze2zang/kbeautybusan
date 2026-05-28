@@ -3,7 +3,20 @@
     "home": "Home",
     "catalog": "Catalog",
     "about": "About",
+    "news": "News",
     "subtitle": "PREMIUM BEAUTY PLATFORM"
+  },
+  "news": {
+    "title": "News & Events",
+    "subtitle": "Latest updates, events, and promotions from Busan's premium beauty venues",
+    "all": "All",
+    "categoryNews": "News",
+    "categoryEvent": "Event",
+    "categoryPromotion": "Promotion",
+    "noPosts": "No posts yet. Check back soon!",
+    "readMore": "Read More",
+    "relatedVenue": "Related Venue",
+    "backToList": "Back to News"
   },
   "hero": {
     "badge": "2025 Premium K-Beauty Platform",
@@ -133,7 +146,26 @@
     "confirm": "Confirm",
     "cancel": "Cancel",
     "refresh": "Refresh",
-    "newAlert": "New booking received!"
+    "newAlert": "New booking received!",
+    "tabBookings": "Bookings",
+    "tabPosts": "News & Events",
+    "createPost": "Create Post",
+    "postTitle": "Title",
+    "postTitlePlaceholder": "Enter post title",
+    "postContent": "Content",
+    "postContentPlaceholder": "Write your news or event details...",
+    "postCategory": "Category",
+    "postBusiness": "Related Venue (Optional)",
+    "postBusinessNone": "None",
+    "postImage": "Image URL (Optional)",
+    "postImagePlaceholder": "https://...",
+    "postSubmit": "Publish Post",
+    "postSubmitting": "Publishing...",
+    "postSuccess": "Post published!",
+    "postList": "Published Posts",
+    "noPostsAdmin": "No posts published yet.",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this post?"
   },
   "lang": {
     "en": "English",

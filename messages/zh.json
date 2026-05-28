@@ -3,7 +3,20 @@
     "home": "首页",
     "catalog": "全部商家",
     "about": "关于",
+    "news": "资讯",
     "subtitle": "高端美容平台"
+  },
+  "news": {
+    "title": "资讯 & 活动",
+    "subtitle": "釜山高端美容商家的最新资讯、活动和优惠",
+    "all": "全部",
+    "categoryNews": "资讯",
+    "categoryEvent": "活动",
+    "categoryPromotion": "优惠",
+    "noPosts": "暂无内容，敬请期待！",
+    "readMore": "查看详情",
+    "relatedVenue": "相关商家",
+    "backToList": "返回列表"
   },
   "hero": {
     "badge": "2025 高端 K-Beauty 平台",
@@ -133,7 +146,26 @@
     "confirm": "确认",
     "cancel": "取消",
     "refresh": "刷新",
-    "newAlert": "收到新预约！"
+    "newAlert": "收到新预约！",
+    "tabBookings": "预约管理",
+    "tabPosts": "资讯 & 活动",
+    "createPost": "发布内容",
+    "postTitle": "标题",
+    "postTitlePlaceholder": "请输入标题",
+    "postContent": "内容",
+    "postContentPlaceholder": "请输入资讯或活动内容...",
+    "postCategory": "分类",
+    "postBusiness": "相关商家（选填）",
+    "postBusinessNone": "无",
+    "postImage": "图片URL（选填）",
+    "postImagePlaceholder": "https://...",
+    "postSubmit": "发布",
+    "postSubmitting": "发布中...",
+    "postSuccess": "发布成功！",
+    "postList": "已发布内容",
+    "noPostsAdmin": "暂无已发布内容。",
+    "delete": "删除",
+    "deleteConfirm": "确定删除此内容？"
   },
   "lang": {
     "en": "English",
