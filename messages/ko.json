@@ -1,0 +1,79 @@
+{
+  "header": {
+    "home": "홈",
+    "catalog": "전체 업체",
+    "about": "소개",
+    "subtitle": "프리미엄 뷰티 플랫폼"
+  },
+  "hero": {
+    "badge": "2025 프리미엄 K-뷰티 플랫폼",
+    "discover": "부산에서 만나는",
+    "premium": "프리미엄",
+    "kbeautyIn": "K-뷰티",
+    "busan": "부산",
+    "subtitle": "영상 검증 프리미엄 K-뷰티 예약 플랫폼",
+    "services": "마사지 · 헤드스파 · 피부과 · 스킨케어 · 네일 · 헤어",
+    "explore": "서비스 둘러보기 →",
+    "viewAll": "전체 업체 보기",
+    "statVenues": "프리미엄 업체",
+    "statCustomers": "만족 고객",
+    "statLanguages": "지원 언어"
+  },
+  "catalog": {
+    "label": "둘러보기",
+    "heading": "프리미엄 {gold} 업체",
+    "gold": "뷰티",
+    "subheading": "부산 최고의 지역에서 엄선하고 영상 검증된 K-뷰티 서비스",
+    "all": "전체",
+    "noResults": "이 카테고리에는 아직 업체가 없습니다.",
+    "comingSoon": "더 많은 프리미엄 업체가 곧 KBeautyBusan에 추가됩니다",
+    "reviews": "리뷰",
+    "viewDetails": "자세히 보기 →"
+  },
+  "categories": {
+    "massage": "마사지",
+    "headspa": "헤드스파",
+    "skincare": "피부관리",
+    "medical": "의료미용",
+    "dermatology": "피부과",
+    "plasticsurgery": "성형외과",
+    "nail": "네일아트",
+    "hair": "헤어살롱",
+    "makeup": "메이크업",
+    "tattoo": "타투"
+  },
+  "detail": {
+    "back": "뒤로",
+    "hours": "영업시간",
+    "phone": "전화번호",
+    "address": "주소",
+    "languages": "지원 언어",
+    "servicesTitle": "서비스 & 가격",
+    "reviewsTitle": "리뷰",
+    "reviewsDesc": "실제 방문 고객의 인증된 리뷰입니다.",
+    "startingFrom": "시작 가격",
+    "bookNow": "예약하기",
+    "kakaoTalk": "카카오톡 상담",
+    "freeCancel": "무료 취소 · 즉시 확정",
+    "location": "위치",
+    "openMaps": "Google Maps에서 열기",
+    "follow": "팔로우 & 링크"
+  },
+  "footer": {
+    "description": "부산 최고의 K-뷰티 예약 플랫폼. 해운대, 서면, 광안리 등 부산 전역의 영상 검증 프리미엄 뷰티 서비스를 만나보세요.",
+    "quickLinks": "바로가기",
+    "contact": "연락처",
+    "location": "📍 부산광역시, 대한민국",
+    "email": "✉️ hello@kbeautybusan.co.kr",
+    "phone": "📞 +82-51-000-0000",
+    "copyright": "© 2026 KBeautyBusan. All rights reserved.",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관"
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}

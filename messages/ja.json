@@ -1,0 +1,79 @@
+{
+  "header": {
+    "home": "ホーム",
+    "catalog": "店舗一覧",
+    "about": "紹介",
+    "subtitle": "プレミアムビューティープラットフォーム"
+  },
+  "hero": {
+    "badge": "2025 プレミアム K-ビューティー プラットフォーム",
+    "discover": "釜山で出会う",
+    "premium": "プレミアム",
+    "kbeautyIn": "K-ビューティー",
+    "busan": "釜山",
+    "subtitle": "動画検証済み プレミアム K-ビューティー予約プラットフォーム",
+    "services": "マッサージ · ヘッドスパ · 皮膚科 · スキンケア · ネイル · ヘア",
+    "explore": "サービスを探す →",
+    "viewAll": "全店舗を見る",
+    "statVenues": "プレミアム店舗",
+    "statCustomers": "満足のお客様",
+    "statLanguages": "対応言語"
+  },
+  "catalog": {
+    "label": "探す",
+    "heading": "プレミアム {gold} 店舗",
+    "gold": "ビューティー",
+    "subheading": "釜山の最高のエリアから厳選された動画検証済みK-ビューティーサービス",
+    "all": "全て",
+    "noResults": "このカテゴリーにはまだ店舗がありません。",
+    "comingSoon": "さらに多くのプレミアム店舗がKBeautyBusanに追加予定です",
+    "reviews": "件のレビュー",
+    "viewDetails": "詳細を見る →"
+  },
+  "categories": {
+    "massage": "マッサージ",
+    "headspa": "ヘッドスパ",
+    "skincare": "スキンケア",
+    "medical": "美容医療",
+    "dermatology": "皮膚科",
+    "plasticsurgery": "美容整形",
+    "nail": "ネイルアート",
+    "hair": "ヘアサロン",
+    "makeup": "メイクアップ",
+    "tattoo": "タトゥー"
+  },
+  "detail": {
+    "back": "戻る",
+    "hours": "営業時間",
+    "phone": "電話番号",
+    "address": "住所",
+    "languages": "対応言語",
+    "servicesTitle": "サービス & 料金",
+    "reviewsTitle": "レビュー",
+    "reviewsDesc": "実際に訪問されたお客様からの認証済みレビューです。",
+    "startingFrom": "料金",
+    "bookNow": "予約する",
+    "kakaoTalk": "カカオトーク相談",
+    "freeCancel": "無料キャンセル · 即時確定",
+    "location": "所在地",
+    "openMaps": "Google Mapsで開く",
+    "follow": "フォロー & リンク"
+  },
+  "footer": {
+    "description": "釜山最高のK-ビューティー予約プラットフォーム。海雲台、西面、広安里など釜山全域の動画検証済みプレミアムビューティーサービスをご体験ください。",
+    "quickLinks": "クイックリンク",
+    "contact": "お問い合わせ",
+    "location": "📍 釜山広域市、大韓民国",
+    "email": "✉️ hello@kbeautybusan.co.kr",
+    "phone": "📞 +82-51-000-0000",
+    "copyright": "© 2026 KBeautyBusan. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}

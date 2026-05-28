@@ -1,0 +1,79 @@
+{
+  "header": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "about": "About",
+    "subtitle": "PREMIUM BEAUTY PLATFORM"
+  },
+  "hero": {
+    "badge": "2025 Premium K-Beauty Platform",
+    "discover": "Discover",
+    "premium": "Premium",
+    "kbeautyIn": "K-Beauty in",
+    "busan": "Busan",
+    "subtitle": "Video-Verified Premium K-Beauty Booking Platform",
+    "services": "Massage · Head Spa · Dermatology · Skincare · Nail · Hair",
+    "explore": "Explore Services →",
+    "viewAll": "View All Venues",
+    "statVenues": "Premium Venues",
+    "statCustomers": "Happy Customers",
+    "statLanguages": "Languages"
+  },
+  "catalog": {
+    "label": "Explore",
+    "heading": "Premium {gold} Venues",
+    "gold": "Beauty",
+    "subheading": "Handpicked and video-verified K-Beauty services across Busan's best districts",
+    "all": "All",
+    "noResults": "No venues found in this category yet.",
+    "comingSoon": "More premium venues coming soon to KBeautyBusan",
+    "reviews": "reviews",
+    "viewDetails": "View Details →"
+  },
+  "categories": {
+    "massage": "Massage",
+    "headspa": "Head Spa",
+    "skincare": "Skincare",
+    "medical": "Medical Beauty",
+    "dermatology": "Dermatology",
+    "plasticsurgery": "Plastic Surgery",
+    "nail": "Nail Art",
+    "hair": "Hair Salon",
+    "makeup": "Makeup",
+    "tattoo": "Tattoo"
+  },
+  "detail": {
+    "back": "Back",
+    "hours": "Hours",
+    "phone": "Phone",
+    "address": "Address",
+    "languages": "Languages",
+    "servicesTitle": "Services & Pricing",
+    "reviewsTitle": "Reviews",
+    "reviewsDesc": "Verified reviews from real customers who visited this venue.",
+    "startingFrom": "Starting from",
+    "bookNow": "Book Now",
+    "kakaoTalk": "KakaoTalk",
+    "freeCancel": "Free cancellation · Instant confirmation",
+    "location": "Location",
+    "openMaps": "Open in Google Maps",
+    "follow": "Follow & Links"
+  },
+  "footer": {
+    "description": "Busan's premier K-Beauty booking platform. Discover video-verified premium beauty services across Haeundae, Seomyeon, Gwangalli, and more.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "location": "📍 Busan, South Korea",
+    "email": "✉️ hello@kbeautybusan.co.kr",
+    "phone": "📞 +82-51-000-0000",
+    "copyright": "© 2026 KBeautyBusan. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}

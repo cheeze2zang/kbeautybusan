@@ -1,0 +1,79 @@
+{
+  "header": {
+    "home": "首页",
+    "catalog": "全部商家",
+    "about": "关于",
+    "subtitle": "高端美容平台"
+  },
+  "hero": {
+    "badge": "2025 高端 K-Beauty 平台",
+    "discover": "在釜山发现",
+    "premium": "高端",
+    "kbeautyIn": "K-Beauty",
+    "busan": "釜山",
+    "subtitle": "视频验证高端 K-Beauty 预约平台",
+    "services": "按摩 · 头部水疗 · 皮肤科 · 护肤 · 美甲 · 美发",
+    "explore": "探索服务 →",
+    "viewAll": "查看全部商家",
+    "statVenues": "高端商家",
+    "statCustomers": "满意顾客",
+    "statLanguages": "支持语言"
+  },
+  "catalog": {
+    "label": "探索",
+    "heading": "高端 {gold} 商家",
+    "gold": "美容",
+    "subheading": "精选釜山最佳区域的视频验证K-Beauty服务",
+    "all": "全部",
+    "noResults": "该分类暂无商家。",
+    "comingSoon": "更多高端商家即将入驻 KBeautyBusan",
+    "reviews": "条评价",
+    "viewDetails": "查看详情 →"
+  },
+  "categories": {
+    "massage": "按摩",
+    "headspa": "头部水疗",
+    "skincare": "护肤",
+    "medical": "医疗美容",
+    "dermatology": "皮肤科",
+    "plasticsurgery": "整形外科",
+    "nail": "美甲",
+    "hair": "美发沙龙",
+    "makeup": "化妆",
+    "tattoo": "纹身"
+  },
+  "detail": {
+    "back": "返回",
+    "hours": "营业时间",
+    "phone": "电话",
+    "address": "地址",
+    "languages": "支持语言",
+    "servicesTitle": "服务 & 价格",
+    "reviewsTitle": "评价",
+    "reviewsDesc": "来自实际到访顾客的认证评价。",
+    "startingFrom": "起步价",
+    "bookNow": "立即预约",
+    "kakaoTalk": "KakaoTalk咨询",
+    "freeCancel": "免费取消 · 即时确认",
+    "location": "位置",
+    "openMaps": "在Google Maps中打开",
+    "follow": "关注 & 链接"
+  },
+  "footer": {
+    "description": "釜山最佳K-Beauty预约平台。探索海云台、西面、广安里等釜山各区的视频验证高端美容服务。",
+    "quickLinks": "快速链接",
+    "contact": "联系方式",
+    "location": "📍 韩国釜山广域市",
+    "email": "✉️ hello@kbeautybusan.co.kr",
+    "phone": "📞 +82-51-000-0000",
+    "copyright": "© 2026 KBeautyBusan. All rights reserved.",
+    "privacy": "隐私政策",
+    "terms": "使用条款"
+  },
+  "lang": {
+    "en": "English",
+    "ko": "한국어",
+    "ja": "日本語",
+    "zh": "中文"
+  }
+}
