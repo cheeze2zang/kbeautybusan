@@ -57,7 +57,9 @@
     "freeCancel": "Free cancellation · Instant confirmation",
     "location": "Location",
     "openMaps": "Open in Google Maps",
-    "follow": "Follow & Links"
+    "follow": "Follow & Links",
+    "videoTitle": "Video Introduction",
+    "videoDesc": "Watch the latest videos from this venue's official YouTube channel"
   },
   "footer": {
     "description": "Busan's premier K-Beauty booking platform. Discover video-verified premium beauty services across Haeundae, Seomyeon, Gwangalli, and more.",

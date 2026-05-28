@@ -57,7 +57,9 @@
     "freeCancel": "免费取消 · 即时确认",
     "location": "位置",
     "openMaps": "在Google Maps中打开",
-    "follow": "关注 & 链接"
+    "follow": "关注 & 链接",
+    "videoTitle": "视频介绍",
+    "videoDesc": "观看该商家官方YouTube频道的最新视频"
   },
   "footer": {
     "description": "釜山最佳K-Beauty预约平台。探索海云台、西面、广安里等釜山各区的视频验证高端美容服务。",

@@ -49,6 +49,7 @@ export interface Business {
   kakaoUrl?: string;
   instagramUrl?: string;
   youtubeUrl?: string;
+  youtubeChannelId?: string;
   blogUrl?: string;
   facebookUrl?: string;
   websiteUrl?: string;
@@ -595,6 +596,8 @@ export const businesses: Business[] = [
     priceUSD: 1098,
     thumbnailUrl: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=450&fit=crop",
     instagramUrl: "https://www.instagram.com/selfi_plastic_surgery/",
+    youtubeUrl: "https://www.youtube.com/@%EC%9A%B0%EC%A0%95%EC%A3%BC%EB%85%B8%EC%9D%98%EC%85%80%ED%94%BCTV",
+    youtubeChannelId: "UC_kOH4TaDYnjuBpfyP3i3BQ",
     blogUrl: "https://blog.naver.com/selfips",
     kakaoUrl: "https://pf.kakao.com/_AcDDxj",
     websiteUrl: "https://selfips.com/",
@@ -629,6 +632,7 @@ export const businesses: Business[] = [
     thumbnailUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=450&fit=crop",
     instagramUrl: "https://www.instagram.com/shes_plastic.surgery/",
     youtubeUrl: "https://www.youtube.com/@Shesps",
+    youtubeChannelId: "UCu7sF0CCYCR1Tg1AhL5XZaQ",
     facebookUrl: "https://www.facebook.com/shestalk/",
     websiteUrl: "https://www.shesps.com/",
     services: [

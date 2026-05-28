@@ -57,7 +57,9 @@
     "freeCancel": "無料キャンセル · 即時確定",
     "location": "所在地",
     "openMaps": "Google Mapsで開く",
-    "follow": "フォロー & リンク"
+    "follow": "フォロー & リンク",
+    "videoTitle": "動画紹介",
+    "videoDesc": "この店舗の公式YouTubeチャンネルの最新動画をご覧ください"
   },
   "footer": {
     "description": "釜山最高のK-ビューティー予約プラットフォーム。海雲台、西面、広安里など釜山全域の動画検証済みプレミアムビューティーサービスをご体験ください。",

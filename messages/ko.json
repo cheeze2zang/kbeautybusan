@@ -57,7 +57,9 @@
     "freeCancel": "무료 취소 · 즉시 확정",
     "location": "위치",
     "openMaps": "Google Maps에서 열기",
-    "follow": "팔로우 & 링크"
+    "follow": "팔로우 & 링크",
+    "videoTitle": "영상 소개",
+    "videoDesc": "이 업체의 공식 YouTube 채널 최신 영상을 확인하세요"
   },
   "footer": {
     "description": "부산 최고의 K-뷰티 예약 플랫폼. 해운대, 서면, 광안리 등 부산 전역의 영상 검증 프리미엄 뷰티 서비스를 만나보세요.",
