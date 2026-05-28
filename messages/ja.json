@@ -93,6 +93,26 @@
     "close": "閉じる",
     "done": "完了"
   },
+  "review": {
+    "title": "お客様レビュー",
+    "writeReview": "レビューを書く",
+    "yourRating": "評価",
+    "name": "お名前",
+    "namePlaceholder": "お名前を入力してください",
+    "comment": "レビュー内容",
+    "commentPlaceholder": "ご体験をお聞かせください...",
+    "submit": "レビューを投稿",
+    "submitting": "送信中...",
+    "success": "レビューが投稿されました！ありがとうございます。",
+    "error": "レビューの投稿に失敗しました。もう一度お試しください。",
+    "noReviews": "まだレビューがありません。最初のレビューを投稿してみましょう！",
+    "verified": "訪問認証済み",
+    "helpful": "参考になった",
+    "showMore": "もっと見る",
+    "showLess": "閉じる",
+    "totalReviews": "レビュー {count}件",
+    "averageRating": "平均評価"
+  },
   "admin": {
     "title": "管理者ダッシュボード",
     "subtitle": "予約管理",

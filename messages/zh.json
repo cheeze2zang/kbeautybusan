@@ -93,6 +93,26 @@
     "close": "关闭",
     "done": "完成"
   },
+  "review": {
+    "title": "顾客评价",
+    "writeReview": "撰写评价",
+    "yourRating": "评分",
+    "name": "姓名",
+    "namePlaceholder": "请输入您的姓名",
+    "comment": "评价内容",
+    "commentPlaceholder": "分享您的体验...",
+    "submit": "提交评价",
+    "submitting": "提交中...",
+    "success": "评价已提交！感谢您的反馈。",
+    "error": "提交评价失败，请重试。",
+    "noReviews": "暂无评价，成为第一个评价者吧！",
+    "verified": "已验证到访",
+    "helpful": "有帮助",
+    "showMore": "查看更多评价",
+    "showLess": "收起",
+    "totalReviews": "{count} 条评价",
+    "averageRating": "平均评分"
+  },
   "admin": {
     "title": "管理后台",
     "subtitle": "预约管理",

@@ -78,3 +78,67 @@ export async function getBookingStats() {
   `;
   return result.rows[0] as { total: string; pending: string; confirmed: string; cancelled: string };
 }
+
+// ── Reviews ──
+
+export async function initReviewsTable() {
+  await sql`
+    CREATE TABLE IF NOT EXISTS reviews (
+      id SERIAL PRIMARY KEY,
+      business_slug VARCHAR(255) NOT NULL,
+      reviewer_name VARCHAR(255) NOT NULL,
+      rating INTEGER NOT NULL CHECK (rating >= 1 AND rating <= 5),
+      comment TEXT,
+      language VARCHAR(5) NOT NULL DEFAULT 'en',
+      helpful_count INTEGER NOT NULL DEFAULT 0,
+      created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+    )
+  `;
+}
+
+export interface Review {
+  id: number;
+  business_slug: string;
+  reviewer_name: string;
+  rating: number;
+  comment: string | null;
+  language: string;
+  helpful_count: number;
+  created_at: string;
+}
+
+export async function createReview(data: {
+  businessSlug: string;
+  reviewerName: string;
+  rating: number;
+  comment?: string;
+  language: string;
+}): Promise<Review> {
+  const result = await sql`
+    INSERT INTO reviews (business_slug, reviewer_name, rating, comment, language)
+    VALUES (${data.businessSlug}, ${data.reviewerName}, ${data.rating}, ${data.comment || null}, ${data.language})
+    RETURNING *
+  `;
+  return result.rows[0] as Review;
+}
+
+export async function getReviewsByBusiness(slug: string): Promise<Review[]> {
+  const result = await sql`
+    SELECT * FROM reviews WHERE business_slug = ${slug} ORDER BY created_at DESC
+  `;
+  return result.rows as Review[];
+}
+
+export async function getReviewStats(slug: string) {
+  const result = await sql`
+    SELECT
+      COUNT(*) as total,
+      COALESCE(AVG(rating), 0) as average
+    FROM reviews WHERE business_slug = ${slug}
+  `;
+  return result.rows[0] as { total: string; average: string };
+}
+
+export async function incrementHelpful(id: number) {
+  await sql`UPDATE reviews SET helpful_count = helpful_count + 1 WHERE id = ${id}`;
+}

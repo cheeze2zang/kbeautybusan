@@ -93,6 +93,26 @@
     "close": "닫기",
     "done": "확인"
   },
+  "review": {
+    "title": "고객 리뷰",
+    "writeReview": "리뷰 작성하기",
+    "yourRating": "별점",
+    "name": "이름",
+    "namePlaceholder": "이름을 입력하세요",
+    "comment": "리뷰 내용",
+    "commentPlaceholder": "방문 경험을 공유해주세요...",
+    "submit": "리뷰 등록",
+    "submitting": "등록 중...",
+    "success": "리뷰가 등록되었습니다! 감사합니다.",
+    "error": "리뷰 등록에 실패했습니다. 다시 시도해주세요.",
+    "noReviews": "아직 리뷰가 없습니다. 첫 번째 리뷰를 남겨보세요!",
+    "verified": "방문 인증",
+    "helpful": "도움됨",
+    "showMore": "리뷰 더보기",
+    "showLess": "접기",
+    "totalReviews": "리뷰 {count}개",
+    "averageRating": "평균 별점"
+  },
   "admin": {
     "title": "관리자 대시보드",
     "subtitle": "예약 관리",

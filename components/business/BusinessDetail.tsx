@@ -11,7 +11,8 @@ import {
 import { formatKRW, formatUSD } from "@/lib/utils";
 import RatingBadge from "@/components/ui/RatingBadge";
 import BookingModal from "@/components/booking/BookingModal";
-import { ArrowLeft, Clock, Phone, MapPin, Globe, Star, ExternalLink, Instagram } from "lucide-react";
+import ReviewSection from "@/components/review/ReviewSection";
+import { ArrowLeft, Clock, Phone, MapPin, Globe, ExternalLink, Instagram } from "lucide-react";
 
 interface BusinessDetailProps {
   business: Business;
@@ -130,19 +131,7 @@ export default function BusinessDetail({ business }: BusinessDetailProps) {
                 </div>
               </div>
 
-              <div className="border-t border-amber-100/50 p-6 sm:p-8">
-                <h2 className="font-display text-2xl font-bold text-busan-secondary">{t("reviewsTitle")}</h2>
-                <div className="mt-4 flex items-center gap-4">
-                  <div className="flex items-center gap-1">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} size={20} className={i < Math.round(business.rating) ? "fill-amber-400 text-amber-400" : "text-amber-200"} />
-                    ))}
-                  </div>
-                  <span className="text-lg font-bold text-busan-secondary">{business.rating}</span>
-                  <span className="text-sm text-busan-secondary/40">({business.reviewCount})</span>
-                </div>
-                <p className="mt-4 text-sm text-busan-secondary/50">{t("reviewsDesc")}</p>
-              </div>
+              <ReviewSection businessSlug={business.slug} />
             </div>
           </div>
 

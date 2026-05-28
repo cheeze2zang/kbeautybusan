@@ -93,6 +93,26 @@
     "close": "Close",
     "done": "Done"
   },
+  "review": {
+    "title": "Customer Reviews",
+    "writeReview": "Write a Review",
+    "yourRating": "Your Rating",
+    "name": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "comment": "Your Review",
+    "commentPlaceholder": "Share your experience...",
+    "submit": "Submit Review",
+    "submitting": "Submitting...",
+    "success": "Review submitted! Thank you for your feedback.",
+    "error": "Failed to submit review. Please try again.",
+    "noReviews": "No reviews yet. Be the first to share your experience!",
+    "verified": "Verified Visit",
+    "helpful": "Helpful",
+    "showMore": "Show More Reviews",
+    "showLess": "Show Less",
+    "totalReviews": "{count} reviews",
+    "averageRating": "Average Rating"
+  },
   "admin": {
     "title": "Admin Dashboard",
     "subtitle": "Booking Management",
